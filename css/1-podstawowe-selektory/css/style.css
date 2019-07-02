@@ -1,0 +1,58 @@
+/* Selektor znacznika */
+li {
+    color: darkorange;
+}
+
+/* Selektor id */
+#first-list-item {
+    font-size: 32px;
+}
+
+/* Selekto klasy */ 
+.list-item {
+    color: pink;
+}
+
+/* Selekto potomstwa */
+section a {
+    color: green;
+}
+
+/* Selektor bezpośredniego potomstwa */
+section > a {
+    color: red;
+}
+
+/* Selektor bezpośredniego rodzeństwa */
+#first-list-item + li {
+    color: blue;
+}
+
+/* Selektor rodzeństwa */
+#first-ordered-item ~ li {
+    background-color: aqua;
+}
+
+/* Selektor uniwersalny */
+* {
+    border: 2px lightgreen solid;
+    box-sizing: border-box;
+}
+
+/* Selektor łączony - i to i to */
+ul.list-container {
+    background-color: chocolate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

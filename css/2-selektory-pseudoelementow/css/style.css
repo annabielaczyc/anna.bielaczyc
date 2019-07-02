@@ -1,0 +1,13 @@
+.heading::before {
+    content: '*';
+    color: red;
+}
+
+.heading::after {
+    content: '@';
+    color: green;
+}
+
+.heading {
+    font-size: 50px;
+}

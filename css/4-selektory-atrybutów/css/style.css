@@ -1,0 +1,27 @@
+[title] {
+    color: red;
+}
+
+[title="About me"] {
+    color: orange;
+}
+
+[title~="Container"] {
+    color: green;
+}
+
+[title*="ion"] {
+    background-color: lime;
+}
+
+[title^="More"] {
+    color: violet;
+}
+
+[title$="skills"] {
+    background-color: cadetblue;
+}
+
+a[title*="e"] {
+    font-size: 2em;
+}

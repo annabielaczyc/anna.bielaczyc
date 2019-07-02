@@ -1,0 +1,23 @@
+.par-first {
+    background-color: skyblue;
+}
+
+.par-second {
+    background-color: indianred;
+}
+
+.inline {
+    display: inline;
+}
+
+ul {
+    font-size: 0;
+}
+
+.inline-block-item {
+    display: inline-block;
+    padding: 15px;
+    background-color: hotpink;
+    font-size: initial;
+};
+

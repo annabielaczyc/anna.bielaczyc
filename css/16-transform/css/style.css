@@ -1,0 +1,41 @@
+.transform-rotate {
+    width: 250px;
+    height: 320px;
+    transform: rotate(-160deg);
+}
+
+.transform-translate {
+    width: 250px;
+    height: 320px;
+    transform: translateX(100px);
+}
+
+/* pozycjonowanie z translate */
+.centrowanie {
+    position: relative;
+    height: 300px;
+}
+
+.centrowanie-inner {
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.transform-scale {
+    width: 250px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.transform-scale img {
+    transition: all 0.4s;
+}
+
+.transform-scale img:hover {
+    transform: scale(2);
+}

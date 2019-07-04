@@ -1,0 +1,22 @@
+p {
+    color: red;
+    /* nazwa animacji */
+    animation-name: bouncing;
+    /* czas animacji */
+    animation-duration: 2s;
+    /* powtorzenia animacji */
+    animation-iteration-count: infinite;
+    /* jak wyswietlamy animacje */
+    animation-timing-function: ease-in;
+}
+
+/* definicja animacji */
+@keyframes bouncing {
+    0%, 100% {
+        font-size: 12px;
+    }
+
+    50% {
+        font-size: 20px;
+    }
+}

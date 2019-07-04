@@ -1,0 +1,20 @@
+/* Definicja media queries */
+/* @media - slowo kluczowe media queries */
+/* nastepnie podajemy urzadzenie (jezeli jest taka koniecznosc) */
+/* operatorami logicznymi laczymy wlasciwosci media queries */
+@media all and (max-width: 1200px) {
+    
+}
+
+@media all and (max-width: 767px) {
+    .rwd {
+        background-color: yellow;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .rwd {
+        background-color: blue;
+    }
+}
+

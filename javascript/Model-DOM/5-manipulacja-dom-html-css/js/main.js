@@ -28,4 +28,4 @@ fourthLink.classList.add('red');
 fourthLink.classList.remove('fourth');
 
 // style
-fourthLink.style.backgroundColor = 'red';
+fourthLink.style.backgroundColor = 'red'; 
